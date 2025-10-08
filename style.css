@@ -165,21 +165,22 @@ nav{
  /* -- footer  -- */
 
  footer{
+     background: linear-gradient(to right, rgb(113 44 249), rgb(67 26 148));
    width: 100%;
    display: flex;
    align-items: center;
    justify-content: center;
    padding: 0 2em;
+   margin-top: 100px;
  }
  .footer_conteiner{
     width: 100%;
     max-width: 1000px;
     background-color: transparent;
-    padding: 1em 0;  
+    padding: 2em 0;  
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 100px 0 50px 0;  
  }
  footer p{
     color: #eee;
@@ -190,7 +191,6 @@ nav{
     display: flex;
     gap: 40px;
  }
-
  
 
  /* -- midia scren --  */
