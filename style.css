@@ -13,17 +13,18 @@ html, body {
  body{
     width: 100vw;
     max-width: 100%;
- height: auto;
+    height: auto;
      background-color: rgb(36, 36, 36);
 }
 
 
 /* --  header --  */
 header{
-    background: rgb(113 44 249);
+     background: linear-gradient(to right, rgb(113 44 249), rgb(67 26 148));
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: center;    
+  
 }
 nav{
     display: flex;
@@ -90,7 +91,6 @@ nav{
     text-decoration: none;
     font-weight: 700;
     border-radius: 5px;
-    border: solid 0.5px #eee;    
     cursor: pointer;
     max-width: 250px;
     width: 100%;
@@ -127,7 +127,6 @@ nav{
 .projetos_carrosel{
     background-color: transparent;
     width: 100%;
-   
     display: flex;
     align-items: center;
     flex-direction: column;
